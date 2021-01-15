@@ -20,13 +20,15 @@ To support Windows build and python3 we had to make [minor changes](https://gith
 - `PythonAPI/setup.py`
 - `PythonAPI/pycocotools/coco.py`
 
+Additionally, removed the dependency on Matplotlib
+
 To install this package, use `pip` as follows:
 
 ```
 (dlwin36coco) Phil@SERVERP E:\repos
-$ pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
-Collecting git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
-  Cloning https://github.com/philferriere/cocoapi.git to c:\users\phil\appdata\local\temp\pip-req-build-jn698z8p
+$ pip install git+https://github.com/LuisTbx/cocoapi.git#subdirectory=PythonAPI
+Collecting git+https://github.com/LuisTbx/cocoapi.git#subdirectory=PythonAPI
+  Cloning https://github.com/LuisTbx/cocoapi.git to c:\users\phil\appdata\local\temp\pip-req-build-jn698z8p
 Building wheels for collected packages: pycocotools
   Running setup.py bdist_wheel for pycocotools ... done
   Stored in directory: C:\Users\Phil\AppData\Local\Temp\pip-ephem-wheel-cache-rde3oevt\wheels\69\2b\12\2fa959e49f73d26cff202c2f4e5079096c9c57c8a8509fd75c
